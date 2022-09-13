@@ -15,22 +15,39 @@
 
 	<!-- Bootstrap Icons -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" />
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<header>
+	<header class="bg-white">
 		<img src="images/Logo2.png">
 	</header>
-	<main class="container mt-4">
-		<h1>EXAM TITLE</h1>
-		<button type="button"
-			class="btn btn-secondary"
-			data-bs-container="body"
-			data-bs-toggle="popover"
-			data-bs-placement="left"
-			data-bs-content="html here">
-			Popover on left
-		</button>
-		
+	<main class="container mt-4 bg-light">
+		<div class="row" style="background-color: #D9D9D9;">
+			<div class="col">
+				<h1>EXAM TITLE</h1>
+			</div>
+			<div class="col"></div>
+			<div class="col mt-2">
+				<button type="button"
+					class="btn btn-primary"
+					data-bs-container="body"
+					data-bs-toggle="popover"
+					data-bs-placement="left"
+					data-bs-content="html here">
+					Popover on left
+				</button>
+			</div>
+		</div>
+
+		<!-- Blue Line -->
+		<div class="row" style="background-color: #D9D9D9;">
+			<div class="col bg-primary text-white-0" style="height: 10px;"></div>
+			<div class="col"></div>
+			<div class="col"></div>
+		</div>
+		<div class="row" style="background-color: #D9D9D9; height: 10px"></div>
 		<div class="container mt-4" id="Question 1">
 			<h5>1. The terms "bitmap," "b-tree," and "hash" refer to which type of database structure?</h5>
 			<div class="form-check form-check-inline">
@@ -142,7 +159,7 @@
 	<!-- Bootstrap -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 
-	<!-- Javascript -->
+	<!-- Custom Javascript -->
 	<script src="script.js"></script>
 </body>
 </html>
