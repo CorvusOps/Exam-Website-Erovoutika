@@ -2,4 +2,14 @@ body {
     background-color: #D9D9D9;
 }
 
-/* Language: css */
+.mr-1{
+    margin-right: 10%;
+}
+
+.col-3{
+    height: 10px;
+}
+
+.bi-card-checklist{
+    font-size: 30px;
+}
